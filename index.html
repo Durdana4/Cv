@@ -1,0 +1,153 @@
+<!-- HTML -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+            <!-- Home Section -->
+        <section id="home">
+            <div class="home-content">
+                <img src="static/mypic.jpg" alt="Azizbek" class="profile-picture">
+                <h1>Welcome to My Portfolio</h1>
+                <p id="p1">Hello, I'm Durdana Yembergenova, a highly motivated and passionate web programmer. With a keen eye for design and a love for coding, I am dedicated to creating elegant and functional web solutions. I thrive on the challenge of crafting exceptional user experiences and continuously seek to expand my skill set to stay at the forefront of web development trends and technologies. My approach is centered around writing clean and efficient code that not only meets client requirements but also exceeds expectations. I am a collaborative team player with excellent communication skills, capable of working seamlessly with designers and developers to bring ideas to life. I am driven by a strong attention to detail, ensuring that every website I create is optimized for performance and functionality across various devices and browsers. With a commitment to continuous improvement, I am always refining my skills and learning new technologies to deliver cutting-edge web solutions. I am excited to contribute my expertise and passion to your next project.</p>
+                <p > Explore my projects and skills below. <a href="#projects" class="scroll-down-link">&darr;</a></p>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>I'm Durdana, a passionate web developer based in Tashkent. I specialize in front-end development with expertise in HTML, CSS, and JavaScript. I love building responsive and user-friendly websites that make a positive impact.</p>
+                <p>In addition to web development, I enjoy exploring new technologies, learning new skills, and staying up-to-date with the latest trends in the industry. When I'm not coding, you can find me hiking in nature, reading a good book, or experimenting in the kitchen.</p>
+                
+                <!-- Skills Section -->
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Responsive Web Design</li>
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>Java</li>
+                        <!-- Add more skills as needed -->
+                    </ul>
+                </div>
+        
+                <!-- Education Section -->
+                <div class="education">
+                    <h3>Education</h3>
+                    <p>Bachelor of Engineering in SoftWare Engineering<br>
+                    New Uzbekistan University, 2026</p>
+                    <!-- Add more education details if needed -->
+                </div>
+        
+        
+                <!-- Personal Interests Section -->
+                <div class="personal-interests">
+                    <h3>Personal Interests</h3>
+                    <p>When I'm not coding, I enjoy:</p>
+                    <ul>
+                        <li>Cooking</li>
+                        <li>Sewing</li>
+                        <li>Chess</li>
+                        <li>Volleyball</li>
+                        <!-- Add more personal interests or hobbies as needed -->
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3><a href="https://weather366days.pythonanywhere.com/">Todo App</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel eros sit amet odio sodales fermentum. Donec volutpat risus sed mi vulputate, eu laoreet eros sollicitudin.</p>
+                <img src="static/Project3.png" alt="Project 1">
+            </div>
+            <!-- Add more projects as needed -->
+        </section>
+    </main>
+
+        <!-- Footer -->
+        <footer id="contact">
+            <div class="footer-content">
+                <div class="contact-me">
+                    <h3>Contact Me</h3>
+                    <div class="contact-info">
+                        <ul>
+                            <li><strong>Email:</strong> d.yembergenova@newuu.uz</li>
+                            <li><strong>Phone:</strong> +998913811464</li>
+                            <li><strong>Location:</strong> [Tashkent, Uzbekistan]</li>
+                        </ul>
+                    </div>
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d499.94750284919945!2d69.32140913112183!3d41.32410062066593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef5bc87fe83a3%3A0x3677cc581b5a2379!2sUWED%20DORMITORY!5e0!3m2!1sen!2s!4v1713810134502!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                            width="100%" 
+                            height="200" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                    <div class="social-links">
+                        <h3>Connect With Me</h3>
+                        <ul>
+                            <li><a href="https://linkedin.com/in/durdana-embergenova-bb0824266" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                            <li><a href="https://github.com/Durdana4" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2024 Your Name. All rights reserved.</p>
+        </footer>
+
+    <script src="script.js"></script>
+    <div id="react-root"></div>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script type="module">
+        import FeedbackForm from './FeedbackForm.js';
+        ReactDOM.render(<FeedbackForm />, document.getElementById('react-root'));
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Smooth scrolling behavior when clicking on the scroll-down link
+            $(".scroll-down-link").on("click", function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $("html, body").animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
